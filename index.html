@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center> 
+        <h1>Formulário Simples</h1>
+    <form>
+        <p>Nome : <input type="text" name="nome" id="nome" placeholder="Digite seu nome "> </p>
+        <p>Sobrenome : <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome "></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+    <br><br><br>
+    <h1> Formulario com Validação</h1>
+    <fieldset>
+        <legend> Formulario </legend>
+        <form action="inicio.html"></form>
+        <p><label for="idnome"> Nome : </label></p>
+       <p><input type="text" name="nome" id="idnome" placeholder="Digite o seu nome" minlength="3" maxlength="50" required name="nome"></p>
+       <p><label for="idsbnome"> Sobrenome : </label></p>
+       <p><input type="text" name="sbnome" id="idsbnome" placeholder="Digite o sobrenome" minlength="5" maxlength="40" required name="sbnome"></p>
+       <p><label for="idcidade"> Cidade : </label></p>
+       <p><input type="text" name="cidade" id="idcidade" placeholder="Digite a sua cidade" minlength="5" maxlength="50" required name="cidade"> </p>
+       <p><label for="idemail"> E-mail : </label></p>
+       <p><input type="e-mail" name="email" id="idemail" placeholder="Digite o seu e-mail" minlength="10" maxlength="50" required name="e-mail"></p>
+    </fieldset>
+    </center>
+    
+</body>
+</html>

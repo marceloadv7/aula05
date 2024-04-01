@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    background-color: blue;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-family: arial;
+}
+p{
+    color: white;
+    font-family: arial;
+    
+}

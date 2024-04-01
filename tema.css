@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 5px 10px 45px green;
+    background: linear-gradient(blue,white );
+}
+
+#d1{
+    width: 100px; /*largura*/
+    height: 75px; /*altura*/
+    background-color: blueviolet; /*cor do fundo*/
+    color: aqua; /*cor da letra*/
+    border: 3px solid black; /*solid borda*/
+    margin-left: auto; /*margem automatica a esquerda*/
+    margin-right: auto; /*margem automatica a direita*/
+    margin-top: 30px;
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg); /*IE 9*/
+    -webkit-transform: rotate(30deg); /*Safari and Chrome*/
+}
+
+#d2{
+    width: 100px; /*largura*/
+    height: 75px; /*altura*/
+    background-color: rgb(42, 34, 186); /*cor do fundo*/
+    color: rgb(14, 240, 33); /*cor da letra*/
+    margin-left: auto; /*margem automatica a esquerda*/
+    margin-right: auto; /*margem automatica a direita*/
+    margin-top: 30px;
+    border-style: solid;
+    border-width: thin;
+    box-shadow: 10px 10px 10px purple;
+    border-radius: 15px;
+
+}
+
